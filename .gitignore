@@ -1,0 +1,33 @@
+# Environment secrets — NEVER commit these
+.env
+*.env
+!example.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Docker volumes / data
+mongodb_data/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
